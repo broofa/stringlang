@@ -1,0 +1,40 @@
+{
+  "name": "@broofa/stringlang",
+  "version": "2.0.3",
+  "description": "Utility functions for analyzing strings by Unicode block",
+  "funding": [
+    "https://github.com/sponsors/broofa"
+  ],
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "index.js"
+  },
+  "files": [
+    "index.js",
+    "data/*",
+    "src/*"
+  ],
+  "devDependencies": {
+    "node-fetch": "2.6.7"
+  },
+  "scripts": {
+    "build": "./scripts/build.js > data/BLOCKS.js",
+    "test": "node test/test",
+    "prepare": "npm run build && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/broofa/stringlang"
+  },
+  "keywords": [
+    "unicode",
+    "unicode-blocks",
+    "blocks",
+    "characters",
+    "count",
+    "string"
+  ],
+  "author": "Robert Kieffer",
+  "license": "ISC"
+}
