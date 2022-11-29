@@ -6,9 +6,9 @@
     "https://github.com/sponsors/broofa"
   ],
   "type": "module",
-  "main": "index.js",
+  "main": "./index.js",
   "exports": {
-    ".": "index.js"
+    ".": "./index.js"
   },
   "files": [
     "index.js",
