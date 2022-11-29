@@ -1,6 +1,6 @@
 {
   "name": "@broofa/stringlang",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Utility functions for analyzing strings by Unicode block",
   "funding": [
     "https://github.com/sponsors/broofa"
